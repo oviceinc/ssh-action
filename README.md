@@ -55,7 +55,7 @@ jobs:
 
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: utility-staging-amd64
     steps:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
